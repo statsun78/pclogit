@@ -1,0 +1,3 @@
+useDynLib(pclogit)
+import(Matrix)
+export(pclogit,sel.pclogit)

@@ -11,3 +11,8 @@ Penalized Conditional (Unconditional) Logistic Regression: Fit a regularization 
 library(devtools)
 install_github("statsun78/pclogit")
 ```
+
+## References
+
+* **Sun, H.** and Wang, S. (2012) Penalized Logistic Regression for High-dimensional DNA Methylation Data with Case-Control Studies, *Bioinformatics* 28(10), p.1368-1375.
+* **Sun, H.** and Wang, S. (2013) Network-based Regularization for Matched Case-Control Analysis of High-dimensional DNA Methylation Data, *Statistics in Medicine* 32(12), p.2127-2139.

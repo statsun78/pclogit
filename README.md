@@ -11,7 +11,7 @@ Penalized Conditional (Unconditional) Logistic Regression: Fit a regularization 
 ## "devtools" pacakge is required if you don't have it.  
 install.packages('devtools')
 
-## For Windows users, you need to download and install Rtools from https://cran.r-project.org/bin/windows/Rtools
+## For Windows users, you also need to install Rtools from https://cran.r-project.org/bin/windows/Rtools
 
 library(devtools)
 install_github("statsun78/pclogit")

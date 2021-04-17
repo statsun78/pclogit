@@ -1,11 +1,13 @@
 Package: pclogit
 Type: Package
 Title: Penalized conditional (unconditional) logistic regression using a network-based peanlty for matched (unmatched) case-control data with grouped or graph-constrained variables.
-Version: 0.2
+Version: 0.3
+Date: 2021-04-17
 Author: Hokeun Sun 
 Maintainer: Hokeun Sun <hsun@pusan.ac.kr>
 Depends: Matrix
-Description: An efficient algorithm for fitting the regularization path and providing selection probabilities of individual variables for anaylsis of high-dimensional matched (unmatched) case-control data. The algorithm uses cyclical coordinate descent in a pathwise fashion. 
+Description: An efficient algorithm for fitting the regularization path and providing selection probabilities of individual variables for anaylsis of high-dimensional matched (unmatched) case-control data. The algorithm uses cyclical coordinate descent in a pathwise fashion.   
 License: GPL-2
-Encoding: UTF-8
-LazyData: FALSE
+
+
+

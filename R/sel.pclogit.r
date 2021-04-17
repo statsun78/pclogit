@@ -45,13 +45,11 @@ sel.pclogit<-function(x,y,stra=NULL,...,psub=0.5,N.lam=5,K=100) {
       out<-out+out0
    }   
    if (is.null(colnames(x))) rownames(out) <- paste("V",1:ncol(x),sep="")
-   else rownames(out)<-colnames(x)
-   colnames(out)<-paste("s",1:length(lam),sep="")
-   beta<-as.matrix(out/N)
-   maxs<-apply(beta,1,max)
-   u<-order(maxs,decreasing=TRUE)
-   mat<-cbind(u,maxs[u])
-   rownames(mat)<-NULL
+   else rownames(out) <- colnames(x)
+   colnames(out) <- paste("s", 1:length(lam), sep="")
+   maxs <- apply(out, 1, max)/N
+   u <- order(maxs, decreasing=TRUE)
+   mat <- cbind(u, maxs[u])
    colnames(mat)<-c("variable","sel.prob")
 return(list(beta=beta,maxsel=mat,lambda=lam,K=N))
 }

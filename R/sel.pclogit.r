@@ -51,5 +51,5 @@ sel.pclogit<-function(x,y,stra=NULL,...,psub=0.5,N.lam=5,K=100) {
    u <- order(maxs, decreasing=TRUE)
    mat <- cbind(u, maxs[u])
    colnames(mat)<-c("variable","sel.prob")
-return(list(beta=beta,maxsel=mat,lambda=lam,K=N))
+return(list(beta=out/N,maxsel=mat,lambda=lam,K=N))
 }

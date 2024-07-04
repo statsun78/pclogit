@@ -7,15 +7,15 @@ Penalized Conditional (Unconditional) Logistic Regression: Fit a regularization 
 
 ## Installation
 
-### Windows users
+* ### Windows users
 1. Download and install the latest version of [R](https://cran.r-project.org/bin/windows/base/)
 2. Download and install the latest version of [Rtools](https://cran.r-project.org/bin/windows/Rtools/)
 
-### Mac users
+* ### Mac users
 1. Download and install the latest version of [R](https://cloud.r-project.org/bin/macosx/)
 2. Download and install the Fortran compliler [gfortran](https://cran.r-project.org/bin/macosx/tools/)
 
-### Both Windows and Mac users 
+* ### Both Windows and Mac users 
 ```
 ## "devtools" package is required if you don't have it.  
 install.packages('devtools')
